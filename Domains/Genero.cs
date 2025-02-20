@@ -11,6 +11,6 @@ namespace API_filmes_senai.Domains
 
         [Column(TypeName = "varchar(38)")]
         [Required(ErrorMessage = "Nome do genero e obrigatorio !")]
-        public string Nome { get; set; }
+        public string? Nome { get; set; }
     }
 }
